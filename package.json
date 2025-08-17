@@ -2,7 +2,8 @@
   "name": "portfolio-website-react",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://chanasorn179.github.io/portfolio-website-react/",
+  "homepage": "https://chanasorn179.github.io/portfolio-website-react/"
+  ,
   "scripts": {
     "dev": "vite",
     "build": "vite build",

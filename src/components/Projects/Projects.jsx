@@ -4,8 +4,8 @@ import ProjectCard from "./ProjectCard";
 
 // ✅ import รูปจาก src/assets
 import project1 from "../../assets/images/E-commerce.png"; 
-import project2 from "../../assets/images/Screenshot 2025-08-17 222530.png";
-import project3 from "../../assets/images/Screenshot 2025-08-18 000026.png";
+import project2 from "../../assets/images/Portfolio_website_shop.png";
+import project3 from "../../assets/images/My_Weather_app.png";
 
 const PROJECTS = [
   {

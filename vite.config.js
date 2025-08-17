@@ -3,10 +3,6 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/', // สำหรับ GitHub Pages ใช้ '/<repository-name>/'
-  build: {
-    outDir: 'dist',
-    assetsDir: 'assets',
-    sourcemap: false, // ปิดสำหรับ production
-  }
+  base: '/portfolio-website-react/', // ชื่อ repo คุณ
 })
+// src/main.jsx
