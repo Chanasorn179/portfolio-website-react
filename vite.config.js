@@ -1,8 +1,13 @@
+// vite.config.js - ปรับแต่งสำหรับ deployment
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/portfolio-website-react/', // ชื่อ repo คุณ
+  base: '/', // สำหรับ GitHub Pages ใช้ '/<repository-name>/'
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets',
+    sourcemap: false, // ปิดสำหรับ production
+  }
 })
-// src/main.jsx
